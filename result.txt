@@ -1,0 +1,48 @@
+Dataset Shape: (891, 12)
+
+Columns:
+['PassengerId', 'Survived', 'Pclass', 'Name', 'Sex', 'Age', 'SibSp', 'Parch', 'Ticket', 'Fare', 'Cabin', 'Embarked']
+
+Missing values after cleaning:
+Age       0
+Pclass    0
+SibSp     0
+Parch     0
+Fare      0
+dtype: int64
+
+Cluster Sizes:
+Cluster
+0    520
+1     32
+2    233
+3    106
+Name: count, dtype: int64
+
+Cluster-wise Average Values:
+               Age    Pclass     SibSp     Parch        Fare
+Cluster                                                     
+0        27.315231  2.790385  0.226923  0.086538   11.955680
+1        27.966250  1.000000  0.718750  1.281250  227.076566
+2        40.324034  1.223176  0.364807  0.210300   51.262911
+3        15.724811  2.726415  2.264151  1.933962   30.814032
+
+Cluster Sizes:
+Cluster
+0    520
+1     32
+2    233
+3    106
+Name: count, dtype: int64
+
+Cluster-wise Average Values:
+               Age    Pclass     SibSp     Parch        Fare
+Cluster                                                     
+0        27.315231  2.790385  0.226923  0.086538   11.955680
+1        27.966250  1.000000  0.718750  1.281250  227.076566
+2        40.324034  1.223176  0.364807  0.210300   51.262911
+3        15.724811  2.726415  2.264151  1.933962   30.814032
+
+Clustered dataset saved as titanic_clustered.csv
+
+Clustered dataset saved as titanic_clustered.csv
