@@ -82,3 +82,50 @@ K-Means clustering was applied with 4 clusters. The resulting clusters were anal
 
 ## Conclusion
 The project demonstrates the complete workflow of working with the Titanic dataset, from data cleaning and exploratory analysis to unsupervised learning and passenger segmentation using K-Means clustering.
+# Titanic Survival Prediction - Week 4
+
+## Project Overview
+
+This project implements supervised machine learning models
+to predict passenger survival using the Titanic dataset.
+
+## Models Used
+
+- Logistic Regression
+- Random Forest Classifier
+
+## Feature Engineering
+
+- FamilySize
+- IsAlone
+- Title
+
+## Evaluation
+
+Logistic Regression:
+- Accuracy: 84.36%
+- Precision: 82.54%
+- Recall: 75.36%
+- F1-Score: 78.79%
+- ROC-AUC: 0.8792
+
+Random Forest:
+- Accuracy: 81.01%
+- Precision: 75.36%
+- Recall: 75.36%
+- F1-Score: 75.36%
+- ROC-AUC: 0.8301
+
+## Cross-Validation
+
+Logistic Regression:
+82.83% ± 0.78%
+
+Random Forest:
+81.37% ± 1.53%
+
+## Final Model
+
+Logistic Regression was selected based on its stronger
+test performance, cross-validation results, stability,
+and interpretability.
