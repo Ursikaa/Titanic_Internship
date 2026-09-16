@@ -129,3 +129,71 @@ Random Forest:
 Logistic Regression was selected based on its stronger
 test performance, cross-validation results, stability,
 and interpretability.
+## Week 5 – Deep Learning
+
+### Objective
+Develop a Deep Learning model to predict Titanic passenger survival using a Neural Network.
+
+### Dataset
+The Titanic dataset was used for training and evaluating the model.
+
+### Data Preprocessing
+- Missing values were handled.
+- Numerical features were scaled.
+- Categorical features were encoded.
+- Additional features such as FamilySize and IsAlone were used.
+- Dataset was divided into training, validation, and testing sets.
+
+### Neural Network Architecture
+
+The model was built using TensorFlow/Keras.
+
+- Input Layer: 14 features
+- Dense Layer: 32 neurons
+- Dropout Layer
+- Dense Layer: 16 neurons
+- Dropout Layer
+- Output Layer: 1 neuron with binary classification
+
+### Dataset Split
+
+- Training samples: 712
+- Validation samples: 89
+- Testing samples: 90
+
+### Model Evaluation
+
+The model was evaluated using:
+- Accuracy
+- Loss
+- Confusion Matrix
+
+### Results
+
+The test confusion matrix was:
+
+[[48, 7],
+ [9, 26]]
+
+The model correctly classified 74 out of 90 test samples.
+
+### Visualizations
+
+#### Training vs Validation Accuracy
+
+![Deep Learning Accuracy](deep_learning_accuracy.png)
+
+#### Training vs Validation Loss
+
+![Deep Learning Loss](deep_learning_loss.png)
+
+#### Confusion Matrix
+
+![Deep Learning Confusion Matrix](deep_learning_confusion_matrix.png)
+
+### Files
+
+- week5_deep_learning.py – Deep Learning model code
+- deep_learning_accuracy.png – Accuracy graph
+- deep_learning_loss.png – Loss graph
+- deep_learning_confusion_matrix.png – Confusion matrix
